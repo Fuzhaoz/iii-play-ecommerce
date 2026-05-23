@@ -1,0 +1,53 @@
+body {
+
+    background: url(https://lolstatic-a.akamaihd.net/lolkit/1.1.6/resources/images/bg-default.jpg) no-repeat center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+.intro{
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 70px;
+}
+.preview img{
+    width: 100%;
+}
+.bottom{
+    background: rgba(0, 0,0, 0.8);
+    padding: 10px;
+    position: relative;
+}
+.row{
+    width: 1300px;
+    margin: 0 auto;
+}
+.col{
+    width: 380px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.col :hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5);
+    filter: brightness(1.5);
+    transition: all 0.5s;
+}
+
+.avatar img{
+    width: 50px; height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.channel_name{
+    margin-bottom: 10px;
+}
